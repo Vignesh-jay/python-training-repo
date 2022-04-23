@@ -13,4 +13,14 @@ def fun():
     c=a*b
     return c
 
-print("the a * b value is ",fun())
+print("the a * b value is ",fun(),"\n")
+
+#nesting of funtions
+
+def greet():
+    print("Hello !\n")
+def welcome():
+    greet()
+    print("Welcome...!\n")
+greet()
+welcome()
