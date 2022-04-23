@@ -24,3 +24,14 @@ def welcome():
     print("Welcome...!\n")
 greet()
 welcome()
+
+#Recursive funtions - factorial computing
+
+def fact(num):
+    if num==0:
+        return 1
+    else:
+        ans=num*fact(num-1)
+        return ans
+value=int(input("input the number : "))
+print("\nthe factorial of ",value," is : ",fact(value),"\n")
