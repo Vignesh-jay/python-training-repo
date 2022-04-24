@@ -1,3 +1,4 @@
+
 #simple function
 def prin():
     print("\nhello world \n")
@@ -35,3 +36,16 @@ def fact(num):
         return ans
 value=int(input("input the number : "))
 print("\nthe factorial of ",value," is : ",fact(value),"\n")
+
+#Scope of variables - Global
+
+total=1000
+
+def offer():
+    global dis
+    dis=300
+def amount():
+    print(total-dis)
+
+offer()
+amount()
