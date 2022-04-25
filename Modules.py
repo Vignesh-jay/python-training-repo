@@ -23,7 +23,3 @@ for num in range(0,2):
         print("Error...!")
     x += value
 print("your value is : ",x)
-
-import math
-
-print(math.factorial(6))
